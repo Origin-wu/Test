@@ -1,6 +1,8 @@
 # -*- coding: utf8 -*-
 '''
-cron: 9 1,22 * * * yunyoudao.py
+[task_local]
+57 0,19 * * * https://raw.githubusercontent.com/Origin-wu/Test/main/yunyoudao.js, tag=yunyoudao, enabled=true
+
 new Env('yunyoudao');
 '''
 import requests
