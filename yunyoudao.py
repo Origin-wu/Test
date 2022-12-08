@@ -1,3 +1,17 @@
+# main v1.0.0
+
+# 重写: 打开支付宝-hello小程序
+# [task_local]
+# #main
+# 57 0,9 * * * https://raw.githubusercontent.com/Origin-wu/Test/main/yunyoudao.py, tag=hello, enabled=true
+#
+#
+# [MITM]
+# hostname = *
+
+# cron: 57 0,9 * * *
+# const $ = new Env("main");
+
 import requests
 import time
 
