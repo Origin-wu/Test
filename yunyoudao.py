@@ -1,17 +1,4 @@
-# yunyoudao v1.0.0
-
-# 重写: yunyoudao
-# [task_local]
-# 57 0,7 * * * https://raw.githubusercontent.com/Origin-wu/Test/main/yunyoudao.py, tag=yunyoudao, enabled=true
-#
-# [rewrite_local]
-#
-# [MITM]
-# hostname = *
-
-# cron: 57 0,9 * * *
-# const $ = new Env("yunyoudao");
-
+# -*- coding: utf8 -*-
 import requests
 import time
 
