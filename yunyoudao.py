@@ -2,9 +2,9 @@
 
 # 重写: yunyoudao
 # [task_local]
-# #yunyoudao
 # 57 0,7 * * * https://raw.githubusercontent.com/Origin-wu/Test/main/yunyoudao.py, tag=yunyoudao, enabled=true
 #
+# [rewrite_local]
 #
 # [MITM]
 # hostname = *
