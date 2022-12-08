@@ -1,4 +1,8 @@
 # -*- coding: utf8 -*-
+'''
+cron: 9 1,22 * * * yunyoudao.py
+new Env('yunyoudao');
+'''
 import requests
 import time
 
