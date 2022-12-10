@@ -1,6 +1,6 @@
 # -*- coding: utf8 -*-
 '''
-cron: 57 0,19 * * *
+cron: 57 7 * * *
 new Env('yunyoudao');
 '''
 import requests
