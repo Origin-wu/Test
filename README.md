@@ -22,12 +22,16 @@ make
 
 # example
 * producer.cpp 获取音视频数据存放到sring中
+```shell
 视频sring id 114
 音频sring id 115
+```
 
 * rtcdc.cpp 将连接IP地址,
+```shell
 视频sring id 114
 音频sring id 115
+```
 
 
 # run
